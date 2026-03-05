@@ -1,0 +1,8 @@
+# ── Streamlit Cloud 배포용 requirements.txt ─────────────────────────────────
+# 로컬 개발용 전체 패키지(jupyter, yt-dlp 등)는 제외.
+# Streamlit Cloud는 Python 3.11 환경을 기본 사용하므로
+# 버전을 너무 좁게 고정하지 않아도 됨. (>=로 하한만 지정)
+
+streamlit>=1.35.0
+pandas>=2.0.0
+plotly>=5.20.0

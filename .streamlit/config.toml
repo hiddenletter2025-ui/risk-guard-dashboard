@@ -1,0 +1,11 @@
+[theme]
+primaryColor        = "#E53935"
+backgroundColor     = "#0f1117"
+secondaryBackgroundColor = "#1e2130"
+textColor           = "#e0e0e0"
+font                = "sans serif"
+
+[server]
+# Streamlit Cloud에서는 자동으로 설정됨 — 로컬 개발용 기본값
+headless            = true
+enableCORS          = false
